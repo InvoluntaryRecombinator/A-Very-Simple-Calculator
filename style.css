@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=BJ+Cree&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+  text-align: center;
+  margin-top: 50px
+}
+
+
+h2:first-of-type {
+font-family: 'VT323', monospace; font-size: 36px; color: #58cf39; background:#636363; border: 5px solid black;
+  }
+
+h2:nth-of-type(2) {
+  font-family: sans-serif; font-style: italic;
+}
+
+h2:nth-of-type(n+3) {
+  color: #58cf39;
+}
+
+button {
+  font-family: 'VT323', monospace;font-size: 16px; background-color: grey
+}
+
+input {
+  font-family: 'VT323', monospace;font-size: 16px;
+}
+
+#output {
+  color: black;
+}
+
+
+
